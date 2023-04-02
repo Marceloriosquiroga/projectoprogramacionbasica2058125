@@ -1,0 +1,49 @@
+#include <iostream>
+#include <math.h> 
+#include <conio.h> 
+#include <stdio.h>
+#include <string.h>
+#include <string>
+#include <wchar.h>
+
+using  namespace std;
+
+int main()
+{
+    int opcion;
+
+    do
+    {
+        cout << "***MENU DE OPCIONES***" << endl; 
+        cout << "1.-Alta" << endl;
+        cout << "2.-Modificacion" << endl;
+        cout << "3.-Baja" << endl;
+        cout << "4.-Lista" << endl;
+        cout << "5.-Limpiar Pantalla" << endl;
+        cout << "6.-Salir" << endl;
+        
+        cin >> opcion;
+
+        switch (opcion)
+        {
+        case 1: //ALTA
+            for (int i = 5; i < 5; i++)
+            {
+                printf("ingrese nombre de juego \n");
+                printf("ingrese iniciando juego \n");
+                printf("ingrese eligir personaje \n");
+                printf("ingrese eligiendo mapa \n");
+                
+            }
+            break;
+
+        case 5:
+            system("1"); // limpiar pantalla
+            break;
+        case 6:
+            exit(1); // cierra la pantalla
+            break;
+
+        }
+    } while (opcion!=6);
+}
